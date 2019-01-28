@@ -1,0 +1,225 @@
+body {
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgb(192, 192, 192);
+}
+
+#content {
+    background: white;
+}
+/****** TAILLE *********/
+header {
+    display: flex;
+    height: 100px;
+   
+}
+
+nav {
+    height: 40px;
+    background-color: rgb(87, 191, 240);
+    text-align: center;
+}
+
+
+#bandeau {
+    height: 350px;
+}
+
+#info {
+    height: 200px;
+}
+
+#pub {
+    height: 230px;
+}
+
+#robe, #chaussure, #chemise {
+    height: 210px;
+}
+
+footer {
+    height: 50px;
+}
+/****** HEADER *********/
+#logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 1%;
+}
+
+#nom {
+    width: 35%;
+    margin-left: 15px;
+}
+
+#contact {
+    width: 35%;
+    margin-left: 50px;
+}
+
+#numero {
+    color: rgb(87, 191, 240);
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 3.5%;
+    position: absolute;
+    z-index: 0;
+}
+
+#compte {
+    width: 30%;
+    margin-left: 40px;
+    background-color: rgb(87, 191, 240);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /* justify-content: space-between; */
+    height: 90px;
+}
+
+#nom h3 {
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nom p {
+    color: rgb(253, 144, 204);
+    font-style: italic;
+    margin-top: 0;
+}
+
+
+#contact p:first-child {
+    font-size: 40px;
+    color: rgb(87, 191, 240);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#contact p:last-of-type {
+    color: gray;
+    margin-top: 0;
+}
+
+#compte a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+#compte a:first-child {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+#compte img {
+    width: 40px;
+    height: auto;
+}
+
+/****** HEADER *********/
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: rgb(253, 144, 204);
+}
+
+/****** MIDDLE **********/
+#bandeau img {
+    width: 100%;
+}
+
+/****** INFO **********/
+#info {
+    display: flex;
+}
+
+#paie, #intro, #services {
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+#paie {
+    width: 30%;
+}
+
+#intro {
+    width: 70%;
+}
+
+#services {
+    width: 30%;
+}
+
+#paie p:first-of-type, #intro p:first-of-type, #services p:first-of-type {
+    color: rgb(87, 191, 240);
+    font-weight: bold;
+}
+
+/****** PUB **********/
+#pub {
+    display: flex;
+    justify-content: space-around;
+}
+#robe, #chaussure, #chemise {
+    width: 30%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 3px 2px #a7a6a6;
+}
+
+#robe p:first-of-type, #chaussure p:first-of-type, #chemise p:first-of-type {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+    padding: 5px 0;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#pub img {
+    position: absolute;
+    z-index: 0;
+    margin-left: 1%;
+}
+
+#robe p:last-of-type, #chaussure p:last-of-type, #chemise p:last-of-type {
+    margin-left: 35%;
+    color: rgb(122, 122, 122);
+}
+
+#pub a {
+    color: rgb(87, 191, 240);
+    top: 0;
+    right: 0;
+}
+
+/****** FOOTER **********/
+footer {
+    background-color: rgb(87, 191, 240);
+    text-align: center;
+}
+
+footer a + a:before {
+    content: "-";
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: inline-block;   
+}
